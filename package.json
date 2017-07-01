@@ -1,5 +1,5 @@
 {
-  "name": "sbv-jsoneditor",
+  "name": "ng2-jsoneditor",
   "version": "0.0.2",
   "description": "JSON Editor for Angular 2",
   "main": "index.js",

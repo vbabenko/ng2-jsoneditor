@@ -33,6 +33,6 @@
     "typings": "^1.0.4"
   },
   "dependencies": {
-    "jsoneditor": "git+https://github.com/vbabenko/jsoneditor.git#feature/autocomplete-onfocus"
+    "jsoneditor": "git+https://github.com/vbabenko/jsoneditor.git"
   }
 }

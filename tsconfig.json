@@ -12,6 +12,6 @@
   },
   "files": [
     "src/ng2-jsoneditor.ts",
-    "typings/index.d.ts"
+    "index.d.ts"
   ]
 }

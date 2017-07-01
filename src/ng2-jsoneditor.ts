@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { JsonEditorComponent } from './jsoneditor.component';
+import {JsonEditorComponent} from './jsoneditor.component';
 
 export * from './jsoneditor.component';
 export * from './jsoneditor.options';
@@ -13,4 +13,4 @@ export * from './jsoneditor.options';
     ],
     exports: [JsonEditorComponent]
 })
-export class JSONEditorModule { }
+export class JSONEditorModule {}

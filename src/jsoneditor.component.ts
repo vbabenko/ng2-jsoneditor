@@ -1,6 +1,6 @@
-import { Component, ElementRef, Input } from '@angular/core';
+import {Component, ElementRef, Input} from '@angular/core';
 
-import { JsonEditorOptions, JsonEditorMode } from './jsoneditor.options';
+import {JsonEditorOptions, JsonEditorMode} from './jsoneditor.options';
 
 declare var editor: any;
 var editor = require('jsoneditor');
@@ -22,7 +22,8 @@ export class JsonEditorComponent {
     @Input('data')
     private data: Object = {};
 
-    constructor(private rootElement: ElementRef) { }
+    constructor(private rootElement: ElementRef) {
+    }
 
     ngOnInit() {
         this.editor = new editor(this.rootElement.nativeElement, this.options, this.data);

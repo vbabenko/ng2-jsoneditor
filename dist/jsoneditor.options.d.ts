@@ -7,6 +7,7 @@ export interface JsonEditorTreeNode {
 export declare class JsonEditorOptions {
     ace: Object;
     ajv: Object;
+    autocomplete: Object;
     onChange: () => void;
     onEditable: (node: JsonEditorTreeNode | {}) => boolean | {
         field: boolean;
